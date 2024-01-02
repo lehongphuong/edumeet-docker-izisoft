@@ -5,17 +5,17 @@
   "fileTracker" : "wss://tracker.openwebtorrent.com",
 
   "tls" : {
-    "cert" : "./certs/edumeet-demo-cert.pem",
-    "key"  : "./certs/edumeet-demo-key.pem"
+    "cert" : "./certs/cert.pem",
+    "key"  : "./certs/privkey.pem"
   },
 
-  "turnAPIKey" : "Your API key",
+  "turnAPIKey" : "123456",
   "turnAPIURI" : "https://meet.izisoft.io/turn",
 
   "backupTurnServers" : {
     "urls": [ "turn:meet.izisoft.io:443?transport=tcp" ],
-    "username" : "Your username",
-    "credential" : "Your's credential"
+    "username" : "phuonglh",
+    "credential" : "0x647cff8a31af4472edd670867567c73e"
   },
 
   "redisOptions": {
@@ -36,7 +36,7 @@
         "listenIps" : [
           {
             "ip": "PUBLIC_IP_ADDRESS",
-            "announcedIp" : ""
+            "announcedIp" : "172.96.190.122"
           }
         ]
       }

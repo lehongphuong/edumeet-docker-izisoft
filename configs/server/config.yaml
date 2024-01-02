@@ -4,17 +4,17 @@ listeningHost: meet.izisoft.io
 fileTracker: "wss://tracker.openwebtorrent.com"
 
 tls:
-  cert: ./certs/edumeet-demo-cert.pem
-  key:  ./certs/edumeet-demo-key.pem
+  cert: ./certs/cert.pem
+  key:  ./certs/privkey.pem
 
 turnAPIURI: "https://meet.izisoft.io/turn"
-turnAPIKey: "Your API key"
+turnAPIKey: "123456"
 
 backupTurnServers: 
 - urls: 
   - "turn:meet.izisoft.io:443?transport=tcp"
-  username: "Your username"
-  credential: "Your's credential"
+  username: "phuonglh"
+  credential: "0x647cff8a31af4472edd670867567c73e"
 
 redisOptions:
   host: "127.0.0.1"                                                                                                                                                                  
@@ -31,4 +31,4 @@ mediasoup:
   webRtcTransport:
     listenIps:
     - ip: "PUBLIC_IP_ADDRESS"
-      announcedIp: ""
+      announcedIp: "172.96.190.122"
