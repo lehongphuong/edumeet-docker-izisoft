@@ -161,3 +161,9 @@ Container works in "host" network mode, because bridge mode has the following is
 
 Read more about configs and settings in [eduMEET](https://github.com/edumeet/edumeet) README.
 
+
+
+
+apt-get update && apt-get install coturn
+turnadmin -k -u phuonglh -p 123456
+0x647cff8a31af4472edd670867567c73e
